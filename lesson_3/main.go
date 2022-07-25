@@ -78,11 +78,35 @@ func main() {
 	// letters = append(letters, "d", "e")
 	// fmt.Println(letters)
 
-	createSlice := make([]string, 3)
-	createSlice[0] = "1"
-	createSlice[1] = "2"
-	createSlice[2] = "3"
-	createSlice = append(createSlice, "4")
-	fmt.Println(createSlice)
+	// createSlice := make([]string, 3)
+	// createSlice[0] = "1"
+	// createSlice[1] = "2"
+	// createSlice[2] = "3"
+	// createSlice = append(createSlice, "4")
+	// fmt.Println(createSlice)
+
+	// animals := []string{
+	// 	"Cat",
+	// 	"Dog",
+	// 	"Giraffe",
+	// 	"Elephant",
+	// }
+
+	// a := animals[0:2]
+	// b := animals[1:3]
+
+	// fmt.Println(a)
+	// fmt.Println(b)
+
+	// ----- cat ------
+	a := []int{8, 2, 3, 4, 5, 6, 7, 8}
+	// b := a[5:8]
+	// fmt.Println(b)
+	// fmt.Println(len(a))s
+	len := len(a)
+	fmt.Println(len)
+
+	catA := a[:]
+	fmt.Println(catA)
 
 }
