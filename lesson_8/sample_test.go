@@ -1,12 +1,12 @@
 package main
 
-// import "testing"
+import "testing"
 
-// func TestMultiple(t *testing.T) {
-// 	var x, y, result = 2, 2, 4
-// 	realResult = Multiple(x, y)
+func TestMultiple(t *testing.T) {
+	var x, y, result = 2, 2, 4
+	realResult := Multiple(x, y)
 
-// 	if realResult != result {
-// 		t.Error("%d != %d", result, realResult)
-// 	}
-// }
+	if realResult != result {
+		t.Errorf("%d != %d", result, realResult)
+	}
+}
