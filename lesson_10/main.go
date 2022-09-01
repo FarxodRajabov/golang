@@ -76,4 +76,3 @@ func main() {
 	time.Sleep(time.Second * 3)
 	fmt.Println(c.Value(key))
 }
-
